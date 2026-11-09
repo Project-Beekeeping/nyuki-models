@@ -1,0 +1,6 @@
+county,locality,reported_months,source_year,source,evidence,training_role
+Nakuru,Mariashoni / Mau,late January–March,2013,https://www.ethnorema.it/wp-content/uploads/N.-9-2013.pdf,Historical local ethnographic report,context_only_not_hive_labels
+Nakuru,Molo,September–October,2013,https://www.ethnorema.it/wp-content/uploads/N.-9-2013.pdf,Earlier regional literature cited by fieldwork article,context_only_not_hive_labels
+Baringo,Pokot study communities,March; August; December,2014,https://kups.ub.uni-koeln.de/8588/,Historical respondent-reported timing in thesis,context_only_not_hive_labels
+Kiambu,unspecified,,,,No sufficiently verified local harvest-date series found in this search,unknown_collect_field_records
+Kajiado,unspecified,,,,No sufficiently verified local harvest-date series found in this search,unknown_collect_field_records

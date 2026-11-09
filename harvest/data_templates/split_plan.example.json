@@ -1,0 +1,15 @@
+{
+  "train_end": "2027-01-01",
+  "calibration_end": "2027-04-01",
+  "validation_end": "2027-07-01",
+  "development_apiaries": [
+    "REPLACE_WITH_DEVELOPMENT_APIARY_ID"
+  ],
+  "heldout_apiaries": [
+    "REPLACE_WITH_HELDOUT_APIARY_ID"
+  ],
+  "heldout_hives": [
+    "REPLACE_WITH_HELDOUT_LANGSTROTH_ID",
+    "REPLACE_WITH_HELDOUT_TOP_BAR_ID"
+  ]
+}

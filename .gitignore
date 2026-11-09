@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.db
+*.sqlite3
+config.bat
+node_modules
