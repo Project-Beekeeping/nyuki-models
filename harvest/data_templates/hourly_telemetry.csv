@@ -1,0 +1,1 @@
+hive_id,apiary_id,timestamp,weight_kg,int_temp,int_hum,ext_temp,ext_hum,rain_mm,wind_ms,equipment_delta_kg,harvest_mass_removed_kg,feed_kg,inspection_event,tare_kg,frame_count,shade_fraction,county,sensor_location,hive_type,data_origin

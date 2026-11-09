@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "data_origin": "synthetic",
+  "field_validated": false,
+  "files": {
+    "harvest_readiness.py": "e1ac54bcc3f69a024d000b2eab9c4f4cf21968472f0a6a3f1f31671318af6acb",
+    "smart_nyuki_harvest_synthetic.ipynb": "0d50dddabef49d864c868b1c7774e180fca9cb630f2ddf71d4d069a99f3dac64",
+    "requirements-harvest-lock.txt": "fe3dd12b15aee3064611b7ac33e1c748173f0003a9bafe909837461a50eda911",
+    "outputs/harvest_v2/RESULTS_SUMMARY.md": "fa8e41e58f891725857f517d82382141be39f85ddeb4a810bacfa77d3d455c91",
+    "outputs/harvest_v2/ablations.csv": "b7eeb3971c1b9450f8331e01667290cfb97211b780a22cb2d18e047da90ab8c8",
+    "outputs/harvest_v2/daily_features.csv.gz": "cddd4da790484b2da7ed2348dabb817f8b2d4f8bd3b70536a36bfea2b4922de9",
+    "outputs/harvest_v2/example_advisory.json": "eb188aa49b6a1f1df724372c49a1726b54058e7f88b767c45148c1dd72806e73",
+    "outputs/harvest_v2/harvest_readiness_v2.joblib": "848d7eba0f114e3f7970daaee99c3a741fd25c37f690c616132f9b255a2280bf",
+    "outputs/harvest_v2/model_card.json": "41ce4c6925ede03c823419b26d016afb63115fdb8ec6d292694737c9edb1511c",
+    "outputs/harvest_v2/policy_metrics.csv": "edc79f1f71a35bfe18331bf4845ad0cc68eaeada5210696cc06454f2f3f92ab6",
+    "outputs/harvest_v2/readiness_leaderboard.csv": "aaeb6e71e19d0cd58f16089ce25cc792d4e9667543c67700b4f2031c30a573e4",
+    "outputs/harvest_v2/synthetic_hourly_telemetry.csv.gz": "35296d84b7d7d4e14da1dd7b5d9ab76558e45b7e4d10e057c9cdd9267e456ed5",
+    "outputs/harvest_v2/synthetic_inspections.csv": "e5e2a1c2194797b542b24b21d0947f351655400e439df32c1da86312bc765cb9",
+    "outputs/harvest_v2/test_metrics.csv": "6113360f7ad8bc6964d1c2ae580abeca6863bb984e7ba3cb97ac322dd562235b",
+    "outputs/harvest_v2/test_predictions.csv": "77418b9ff71b3334435905eab854d5e23fc25fcc52eb4d1b4b8b2772df99d1c4",
+    "outputs/harvest_v2/validation_summary.png": "e502c693f7091d4d2c20fe3abc8f663111e6e2ad55a689275b34eec8b14f38ec",
+    "outputs/harvest_v2/yield_leaderboard.csv": "6a8d05935ffee2465d7649ae53e6a7cee868879c23f41cd5bdbb95ac258389b6"
+  }
+}

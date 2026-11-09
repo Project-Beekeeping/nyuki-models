@@ -1,0 +1,152 @@
+{
+  "version": "2.0.0",
+  "data_origin": "synthetic",
+  "field_validated": false,
+  "readiness_champion": "logistic",
+  "yield_champion": "xgboost",
+  "selected_policy": {
+    "threshold": 0.8637280929611452,
+    "enabled": true,
+    "validation_recommendations": 11,
+    "validation_precision": 1.0,
+    "reason": "Empirical validation criterion; not a field guarantee"
+  },
+  "holdout_precision_passed": false,
+  "pooled_precision_passed": true,
+  "hive_type_release_passed": {
+    "Langstroth": false,
+    "Kenya_Top_Bar": false
+  },
+  "policy": {
+    "moisture_limit_pct": 18.0,
+    "capping_min": 0.8,
+    "precision_target": 0.9,
+    "min_validation_recommendations": 10,
+    "min_weight_coverage": 0.8,
+    "max_weight_age_h": 2.0,
+    "max_inspection_age_days": 14,
+    "min_harvest_kg": 3.0,
+    "jump_threshold_kg": 2.0,
+    "feeding_review_days": 30,
+    "interval_alpha": 0.1,
+    "min_interval_calibration": 10
+  },
+  "split_plan": {
+    "train_end": "2025-01-01",
+    "calibration_end": "2025-04-01",
+    "validation_end": "2025-07-01",
+    "development_apiaries": [
+      "apiary_0",
+      "apiary_1",
+      "apiary_2",
+      "apiary_3"
+    ],
+    "heldout_apiaries": [
+      "apiary_4",
+      "apiary_5"
+    ],
+    "heldout_hives": [
+      "apiary_0_h03",
+      "apiary_0_h04",
+      "apiary_1_h03",
+      "apiary_1_h04",
+      "apiary_2_h03",
+      "apiary_2_h04",
+      "apiary_3_h03",
+      "apiary_3_h04"
+    ]
+  },
+  "sample_counts": {
+    "train": {
+      "readiness_labels": 503,
+      "yield_events": 43
+    },
+    "calibration": {
+      "readiness_labels": 145,
+      "yield_events": 10
+    },
+    "validation": {
+      "readiness_labels": 149,
+      "yield_events": 19
+    },
+    "future_known": {
+      "readiness_labels": 269,
+      "yield_events": 11
+    },
+    "future_new_hives": {
+      "readiness_labels": 171,
+      "yield_events": 9
+    },
+    "future_new_apiaries": {
+      "readiness_labels": 225,
+      "yield_events": 16
+    }
+  },
+  "interval_calibration_events": 10,
+  "interval_available": true,
+  "interval_radius_kg": 3.630412902832031,
+  "decision_time": "18:00 Africa/Nairobi, pre-extraction",
+  "features": [
+    "weight_kg",
+    "dw_24h",
+    "night_loss_kg",
+    "day_gain_kg",
+    "int_vpd",
+    "ext_vpd",
+    "vapor_pressure_gradient",
+    "int_temp_mean",
+    "int_temp_range",
+    "int_hum_mean",
+    "ext_temp_mean",
+    "ext_hum_mean",
+    "rain_24h",
+    "wind_mean",
+    "weight_coverage",
+    "climate_coverage",
+    "weight_age_h",
+    "tare_kg",
+    "frame_count",
+    "shade_fraction",
+    "hive_type_ktbh",
+    "dw_24h_3d",
+    "dw_24h_7d",
+    "dw_24h_14d",
+    "dw_24h_30d",
+    "night_loss_kg_3d",
+    "night_loss_kg_7d",
+    "night_loss_kg_14d",
+    "night_loss_kg_30d",
+    "int_vpd_3d",
+    "int_vpd_7d",
+    "int_vpd_14d",
+    "int_vpd_30d",
+    "rain_24h_3d",
+    "rain_24h_7d",
+    "rain_24h_14d",
+    "rain_24h_30d",
+    "night_loss_decay_7d",
+    "weight_slope_7d",
+    "doy_sin",
+    "doy_cos"
+  ],
+  "source_sha256": "e1ac54bcc3f69a024d000b2eab9c4f4cf21968472f0a6a3f1f31671318af6acb",
+  "simulator_seed": 42,
+  "simulated_sensor_profile": "DHT11-like: uniform +/-2 C, +/-5 percent RH, rounded; not a calibration certificate",
+  "libraries": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.1",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0"
+  },
+  "limitations": [
+    "Synthetic mechanism, no field accuracy established",
+    "Field validation requires representative local moisture, inspection and weighed extraction records",
+    "Intervals rely on calibration residual transfer; check coverage under shift",
+    "No trained fanning/absconding detector; colony checks use logged inspections",
+    "Six apiaries and correlated hive-days are not independent field replication",
+    "Readiness label is the configured conservative moisture-plus-capping policy",
+    "Do not use this model to authorize a real harvest"
+  ]
+}

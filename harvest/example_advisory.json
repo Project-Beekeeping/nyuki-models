@@ -1,0 +1,19 @@
+{
+  "hive_id": "apiary_5_h04",
+  "timestamp": "2025-12-31 18:00:00+03:00",
+  "action": "inspect_hive",
+  "probability_ready": 0.9119719485226927,
+  "yield_kg": 5.390262603759766,
+  "yield_interval_kg": [
+    1.7598497867584229,
+    9.020675659179688
+  ],
+  "reasons": [
+    "Held-out tests lack required precision or sample counts overall or within a hive type"
+  ],
+  "data_origin": "synthetic",
+  "field_validated": false,
+  "demonstration_only": true,
+  "harvest_authorized": false,
+  "holdout_precision_passed": false
+}

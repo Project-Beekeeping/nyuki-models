@@ -1,0 +1,4 @@
+split,n,candidate_count,candidate_precision,inspection_fraction,monitor_fraction
+future_known,269,0,,1.0,0.0
+future_new_hives,171,0,,1.0,0.0
+future_new_apiaries,225,0,,1.0,0.0
